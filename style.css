@@ -1,0 +1,533 @@
+h1 {
+	letter-spacing: 1px;
+	margin-top: -10px;
+	padding: 2%;
+	font-size: 40px; 
+	font-family: Roboto; 
+	color: #FF0D56; 
+	text-align: center; 
+}
+footer {
+	margin-top: 3%;
+	font-size: 17px; 
+	background: #d500ff; 
+	color: white; 
+	border-radius: 10px; 
+	height: auto;
+}
+footer p {
+	padding: 2%;
+	font-weight: normal; 
+	color: white; 
+	text-align: center;
+	line-height: 22px;
+}
+footer a {
+	color: white; 
+	font-family: Arial;
+}
+body {
+	font-family: Roboto; 
+	background-image: url(kopia5.jpg); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: cover; 
+	background-attachment: fixed; 
+	overflow-x: hidden; 
+	width: 100%; 
+	height: 100%;
+}
+p {
+	color: #333333; 
+	margin-top: 0px;
+}
+aside {
+	line-height: 140%;
+	font-size: 24px;
+	text-align: center;
+        float: right
+}
+#akcia {
+        line-height: 140%;
+	font-size: 24px;
+	text-align: center;
+        float: right
+}
+/*Pôvodná šírka je 1000px, z toho sa rátajú % v celom CSS!*/
+#cont {
+	max-width: 1020px;
+	width: 100%;
+	margin: 0px auto;
+	padding: 2% auto; 
+	margin-top: 0;
+	border-radius: 0px 0px 10px 10px; 
+	background-color: rgba(0,0,0,0); 
+	font-size: 19px; 
+	font-family: Arial; 
+	font-weight: 500;
+	height: auto;
+}
+header {
+	max-height: 200px;
+	height: 100%; 
+	color: #484d3e; 
+	background-color: rgba(255,255,255,0.8); 
+	padding: 1%; 
+	max-width: 1000px;
+	width: 98%; 
+	margin: 0px auto;
+	margin-top: -0.8%;
+}
+header a {
+    padding: 0.8%;
+    max-width: 58px;
+	width: 100%; 
+	margin-top: -4%;
+	float: right;
+	display: inline-block;
+}
+#ikonka_fb {
+        position: relative;
+        top: 22px;
+}
+#ikonka_gm {
+        position: relative;
+        top: 22px;
+}
+header #logo {
+	clear: right;
+	max-width: 1020px;
+	width: 100%;
+	max-height: 200px;
+	height: 100%;
+        top: -2.5%;
+        position: relative;
+}
+header ul {
+	list-style-type: none;
+}
+.active {
+	color: white;
+	background: #d500ff;
+}
+#kontakt table, th, td {
+	border: 2px solid black; 
+	padding: 15px
+}
+#kontakt table {
+	border-collapse: collapse;
+	text-align: center; 
+	max-width: 100%;
+    width: auto;
+    overflow-x: auto;
+    display: block;
+    border: none;
+}
+#kontakt th {
+	background: #d500ff; 
+	color: white; 
+	font-weight: bold; 
+	font-size: 20px; 
+	font-family: 'Roboto', cursive;
+}
+#kontakt td {
+	width: 14.28%
+}
+#kontakt a {
+	background-color: #365454; 
+	border-radius: 5px; 
+	padding: 5px; 
+	text-decoration: none; 
+	color: white; 
+	font-family: Roboto; 
+	font-size: 15px; 
+	line-height: 100%;
+}
+#kontakt a:hover {
+	background: #d500ff; 
+	color: white; 
+	border-radius: 15px; 
+	padding: 15px; 
+	transition: all 0.3s; 
+	font-size: 18px
+}
+header img { 
+	max-height: 200px;
+	height: 100%;
+	margin-left: 8%; 
+	margin-top: -3%;
+	max-width: 1000px;
+	width: 100%;
+}
+#mapa {
+	float: left;
+    max-width: 600px;
+    width: 100%;
+    overflow-x: auto;
+}
+hr {
+	clear: both;
+}
+
+.f-nav {
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    margin: auto;
+    
+}
+section {
+	line-height: 32px;
+	background-color: rgba(255,255,255,0.7);
+    padding: 3%;
+	padding-top: 5%;
+	border-radius: 10px;
+}
+#uvodny_text {
+	text-align: center;
+}
+#varovanie {
+	text-align: center;
+}
+#prerábka {
+	max-width: 1047px;
+	width: 96%;
+	padding: 2%;
+	font-size: 25px;
+	text-align: center;
+	margin: auto;
+	background-color: rgba(255,255,255,0.7);
+	color: red;
+	border-radius: 10px;
+}
+#cennik table, th, td {
+	border: 2px solid black; 
+	padding: 15px
+}
+#cennik table {
+	border-collapse: collapse;
+	text-align: center; 
+	width: 100%;
+}
+#cennik th {
+	background: #d500ff; 
+	color: white; 
+	font-weight: bold; 
+	font-size: 20px; 
+	font-family: 'Roboto', cursive;
+}
+#cennik th, td {
+    padding: 15px;
+    width: 33.3%
+}
+.img_zlava {
+	float: left;
+    max-width: 500px;
+    width: 100%;
+}
+#akcia {
+	margin-right: 10%;
+}
+#clearfix {
+    clear: both  
+}
+
+/*Estilos de la galeria*/
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria li {
+    margin: 5px;
+}
+
+.galeria img {
+    width: 200px;
+    height: 150px;
+}
+
+/*Estilos del modal*/
+
+.modal {
+    display: none;
+}
+
+.modal:target {
+    
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen {
+    width: 100%;
+    height: 80%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 40px;
+    margin-top: 200px;
+}
+
+.imagen a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.imagen img {
+    width: 1200px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+    margin-top: 8%
+}
+
+.cerrar {
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+    margin-top: 6%
+}
+.stojato {
+    width: 100%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stojato a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.stojato a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.stojato img {
+	width: 900px;
+    height: 92%;
+    max-width: 50%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+    margin-left: 26%;
+    margin-top: 7%
+}
+.cerrar_stojato {
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+    margin-top: 2%;
+}
+
+/*Strip the ul of padding and list styling*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Create a horizontal list with spacing*/
+nav li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+/*Style for menu links*/
+nav li a {
+	display:block;
+	min-width:167.5px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	background: #2f3036;
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+nav li:hover a {
+	background: #d500ff;
+}
+
+/*Style for dropdown links*/
+nav li:hover ul a {
+	background: #2f3036;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+nav li:hover ul a:hover {
+	background: #d500ff;
+	color: #fff;
+}
+
+/*Hide dropdown links until they are needed*/
+nav li ul {
+	display: none;
+	position: absolute;
+	margin-left: auto;
+}
+.f-nav li ul {
+	display: none;
+	position: absolute;
+	margin-left: auto;
+}
+/*Make dropdown links vertical*/
+nav li ul li {
+	display: block;
+	float: none;
+}
+
+/*Prevent text wrapping*/
+nav li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+nav ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #2f3036;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+	width: 100%;
+        }
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+	nav ul {
+		position: static;
+		display: none;
+		width: 100%;
+	}
+	/*Create vertical spacing*/
+	nav li ul {
+		width: 100%;
+		position: absolute;
+		left: 0px
+		}
+	nav li ul li {
+		margin-right: 20px;
+	}
+	nav a {
+		font-size: 16.2px;
+	}
+	/*Make all menu links full width*/
+	nav ul li, nav li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+	.f-nav {
+		position: absolute;
+		width: 100%;
+		left: 7px;
+		top: 20px
+	}
+  .f-nav li ul {
+                width: 100%;
+                position: absolute;
+                left: 0px;
+        }
+	#cont {
+		width: 100%;
+		margin-top: -3%;
+	}
+	h1 {
+		font-size: 36px;
+	}
+	header a {
+		font-size: 15px;
+		position: static;
+	}
+  header {
+                max-height: 300px;
+                height: 100%
+  }
+
+  
+}
+	
+}
+						
+			

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="sk">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MASÁŽE Adriana</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Adriana Riečičiarová" />
+        <meta name="robots" content="all,follow" />
+	<meta name="keywords" content="adriana riečičiarová, masérka, masáže, klasická masáž, klasická masáž obohatená lávovými kameňmi, športová masáž, lymfodrenáž celého tela,
+         kozmetická lymfodrenáž tváre, reflexná masáž chodidla, medová detoxikačná masáž, masáž lávovými kameňmi, bankovanie, Smolenice, Trnava" />
+	<meta name="description" content="Masáže Adriana. Masáže podľa vášho výberu." />
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,900,100&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="favicon.png" sizes="16x16 32x32" type="image/png">
+
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.7.1.js'></script>
+<script>
+/*! Main */
+jQuery(document).ready(function($) {
+
+    // Fixa navbar ao ultrapassa-lo
+    var navbar = $('#menu'),
+    		distance = navbar.offset().top,
+        $window = $(window);
+
+    $window.scroll(function() {
+        if ($window.scrollTop() >= distance) {
+            navbar.removeClass('f-nav').addClass('f-nav');
+          	$("body").css("padding-top", "20px");
+        } else {
+            navbar.removeClass('f-nav');
+            $("body").css("padding-top", "0px");
+        }
+    });
+});
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<div id="cont">
+
+<header>
+<div id="ikonka_gm">
+<a href="https://www.google.sk/maps/place/Mas%C3%A1%C5%BEe:+Adriana+Rie%C4%8Di%C4%8Diarov%C3%A1/@48.5056113,17.4334858,17z/data=!3m1!4b1!4m5!3m4!1s0x476cbab499fd0895:0x59fc2cd4731784d7!8m2!3d48.5056113!4d17.4356745"> <img class="footer_icon" src="googlemaps.png" alt="Google Maps"> </a>
+</div>
+<div id="ikonka_fb">
+<a href="http://www.facebook.com/masazeadriana/"> <img class="footer_icon" src="facebook.png" alt="Facebook"> </a>
+</div>
+	<div id="clearfix"></div>
+<div id="logo">
+	<img src="header4.png" alt="Masáže Bc.Adriana Riečičiarová" title="Masáže Bc.Adriana Riečičiarová">
+</div>
+</header>
+
+<nav>
+	<label for="show-menu" class="show-menu">Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+		<li class="menu1"><a href="index.html" class="menu1">Domov</a></li>
+		<li class="menu1"><a href="#" class="menu1">Druhy masáží ↓</a>
+			<ul class="hidden">
+				<li><a href="masaze/klasicka-masaz.html">Klasická masáž</a></li>
+				<li><a href="masaze/sportova-masaz.html">Športová masáž</a></li>
+				<li><a href="masaze/lymfodrenaz-celeho-tela.html">Lymfodrenáž celého tela</a></li>
+				<li><a href="masaze/kozmeticka-lymfodrenaz-tvare.html">Kozmetická lymfodrenáž tváre</a></li>
+				<li><a href="masaze/reflexna-masaz-chodidla.html">Reflexná masáž chodidla</a></li>
+				<li><a href="masaze/medova-detoxikacna-masaz.html">Medová detoxikačná masáž</a></li>
+                                <li><a href="masaze/lavove-kamene.html">Masáž lávovými kameňmi</a></li>
+                                <li><a href="masaze/bankovanie.html">Bankovanie</a></li>
+				<li><a href="#">↑-------------------------------------↑</a>
+			</ul>
+		</li>
+		<li class="menu1"><a href="cennik.html">Cenník</a></li>
+		<li class="menu1"><a href="darcekove_poukazky.html" class="menu1">Darčekové poukážky</a></li>
+		<li class="menu1"><a href="galeria.html" class="active">Galéria</a></li>
+		<li class="menu1"><a href="kontakt.html" class="menu1">Kontakt</a></li>
+	</ul>
+</nav>
+
+<br>
+<br>
+<br>
+
+<section>
+<h1>Galéria</h1>
+  <ul class="galeria">
+        <li><a href="#img1"><img src="fotky/1-mini.jpg"></a></li>
+        <li><a href="#img2"><img src="fotky/2-mini.jpg"></a></li>
+        <li><a href="#img3"><img src="fotky/3-mini.jpg"></a></li>
+        <li><a href="#img4"><img src="fotky/4-mini.jpg"></a></li>
+        <li><a href="#img5"><img src="fotky/5-mini.jpg"></a></li>
+        <li><a href="#img6"><img src="fotky/6-mini.jpg"></a></li>
+        <li><a href="#img7"><img src="fotky/7-mini.jpg"></a></li>
+        <li><a href="#img8"><img src="fotky/8-mini.jpg"></a></li>
+   </ul>
+
+    <div class="modal" id="img1">
+        <div class="imagen">
+            <a href="#img8">&#60;</a>
+            <a href="#img2"><img src="fotky/1.jpg"></a>
+            <a href="#img2">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img2">
+        <div class="imagen">
+            <a href="#img1">&#60;</a>
+            <a href="#img3"><img src="fotky/2.jpg"></a>
+            <a href="#img3">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img3">
+        <div class="imagen">
+            <a href="#img2">&#60;</a>
+            <a href="#img4"><img src="fotky/3.jpg"></a>
+            <a href="#img4">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img4">
+        <div class="imagen">
+            <a href="#img3">&#60;</a>
+            <a href="#img5"><img src="fotky/4.jpg"></a>
+            <a href="#img5">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img5">
+        <div class="imagen">
+            <a href="#img4">&#60;</a>
+            <a href="#img6"><img src="fotky/5.jpg"></a>
+            <a href="#img6">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img6">
+        <div class="imagen">
+            <a href="#img5">&#60;</a>
+            <a href="#img7"><img src="fotky/6.jpg"></a>
+            <a href="#img7">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img7">
+        <div class="imagen">
+            <a href="#img6">&#60;</a>
+            <a href="#img8"><img src="fotky/7.jpg"></a>
+            <a href="#img8">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img8">
+        <div class="imagen">
+            <a href="#img7">&#60;</a>
+            <a href="#img1"><img src="fotky/8.jpg"></a>
+            <a href="#img1">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+
+</section>
+
+<footer>
+        <p>Bc. Adriana Riečičiarová | Kukuč&iacute;nova 701/17, Smolenice | <a href="tel:+421 919 035 395"><b>tel.:</b>&nbsp;0919 035 395</a>
+         | <b>e-mail:</b><a href="mailto:rieciciarova.a@gmail.com"> rieciciarova.a@gmail.com </a> | IČO:50182897 | DIČ:1086871324 |<br>
+           OU-TT-OZP1-2016/008049-2 | č.živnostenského registra 250-37346<br>
+          <br>
+         &copy; Masáže Adriana Riečičiarová 2022
+        </p>
+</footer>
+
+</div>
+</div>
+</body>
+</html>
